@@ -154,25 +154,30 @@ a {
     display: flex;
     column-gap: 30px;
 }
-#element{
-    background-color: aqua;
-    font-size:3rem;
-    text-align: center;
-    height: 5rem;
-    width: 100%;
-}
-.feature-item{
+.footer-nav {
+    background-color: #808080;
+    height: 40px;
+    padding: 20px;
+    align-content: center;
+    color: #008000;
+    font-weight: 78vh;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    background-color: black;
-    color: antiquewhite;
+    justify-content: center;
+    font-size: 3rem;
+    
     
 }
-.content{
+.footer-sub{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    width: 100%;
+    gap: 70px;
     background-color: black;
-    color: white;
-    height: 60vh;
-
+    color: grey;
+}
+.list-items{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    color: grey;
 }
